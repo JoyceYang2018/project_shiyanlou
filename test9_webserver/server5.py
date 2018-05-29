@@ -19,7 +19,7 @@ class base_case(object):
             handler.handle_error(msg)
 
     def index_path(self,handler):
-        return os.path.join(handler.full_path,'index.html')
+        return os.path.join(handler.full_path,'index_self.html')
 
     def test(self,handler):
         assert False, 'Not implemented.'

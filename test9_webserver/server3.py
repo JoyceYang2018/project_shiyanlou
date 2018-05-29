@@ -41,7 +41,7 @@ class case_always_fail(object):
 class case_directory_index_file(object):
     # 主页路径
     def index_path(self,handler):
-        return os.path.join(handler.full_path,'index.html')
+        return os.path.join(handler.full_path,'index_self.html')
 
     #判断目标路径是否是目录&&目录下是否有index.html
     def test(self, handler):
